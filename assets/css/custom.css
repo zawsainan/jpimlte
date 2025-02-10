@@ -13,17 +13,13 @@
 }
 
 
-html {
-  overflow: hidden;
-}
-
 body {
   width: 100vw;
   height: 100vh;
   color: #0D2348;
   overflow-y: scroll;
   font-family: 'Merriweather', serif;
-
+  over-flow: hidden;
 }
 
 .fade-in {
@@ -162,4 +158,7 @@ footer::after{
 }
 .nav-link{
   color: #0D2348;
+}
+.pattern{
+  transform: translateX(-6px);
 }
