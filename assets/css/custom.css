@@ -16,10 +16,10 @@
 body {
   width: 100vw;
   height: 100vh;
+  over-flow: hidden;
   color: #0D2348;
   overflow-y: scroll;
   font-family: 'Merriweather', serif;
-  over-flow: hidden;
 }
 
 .fade-in {
