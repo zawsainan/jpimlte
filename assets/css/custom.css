@@ -118,6 +118,7 @@ body {
 
 .story-text p {
   line-height: 1;
+  text-align: justify;
 }
 
 .story-text-logo {
