@@ -16,7 +16,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  over-flow: hidden;
+  overflow: hidden;
   color: #0D2348;
   overflow-y: scroll;
   overflow-x: hidden;
