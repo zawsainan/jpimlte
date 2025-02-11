@@ -4,7 +4,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'Merriweather';
   src: url('../fonts/Merriweather-Regular.otf') format('woff');
@@ -12,6 +11,12 @@
   font-style: normal;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: "Merriweather";
+}
+p{
+  font-family: "Acumin";
+}
 
 body {
   width: 100vw;
