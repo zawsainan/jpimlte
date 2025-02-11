@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item ms-2"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item ms-2"><a href="about.html" class="nav-link">About us</a></li>
+                    <li class="nav-item ms-2"><a href="about-firm.html" class="nav-link">About us</a></li>
                     <li class="nav-item ms-2"><a href="" class="nav-link">Investment Strategy</a></li>
                     <li class="nav-item ms-2"><a href="" class="nav-link">Market Insights</a></li>
                     <li class="nav-item ms-2"><a href="" class="nav-link">Portfolio</a></li>
@@ -40,7 +40,7 @@
         </div>
     </nav>
     <div class="w-100 min-vh-100 d-flex flex-column justify-content-end mb-3">
-        <video class="flex-grow-1" autoplay loop muted playsinline style="width: 100vw; object-fit: cover;">
+        <video class="flex-grow-1 about-hero" autoplay loop muted playsinline>
             <source src="assets/images/hero_vid.mp4" type="video/mp4">
         </video>
         <img src="assets/images/footer-pattern.png" class="pattern" alt="">
@@ -130,19 +130,7 @@
             </div>
         </footer>
     
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const elements = document.querySelectorAll(".fade-in");
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("visible");
-                    }
-                });
-            }, { threshold: 0.5 });
-            elements.forEach(el => observer.observe(el));
-        });
-    </script>
+    <script src="assets/js/app.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

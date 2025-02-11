@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Acumin'; 
-  src: url('../fonts/Acumin-RPro.woff') format('woff'); 
-  font-weight: normal; 
-  font-style: normal; 
+  font-family: 'Acumin';
+  src: url('../fonts/Acumin-RPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Merriweather'; 
-  src: url('../fonts/Merriweather-Regular.otf') format('woff'); 
-  font-weight: normal; 
-  font-style: normal; 
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Regular.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
@@ -35,11 +35,14 @@ body {
 }
 
 .fixed-top {
+  position: sticky;
+  top: 0;
   background-color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.placeholder-img-one::after,.placeholder-img-two::after{
+.placeholder-img-one::after,
+.placeholder-img-two::after {
   content: '';
   position: absolute;
   top: 0;
@@ -62,6 +65,7 @@ body {
   height: 15rem;
   z-index: 2;
 }
+
 .placeholder-img-two {
   position: relative;
   background: url('../images/team.jpg') no-repeat;
@@ -73,6 +77,7 @@ body {
   height: 15rem;
   z-index: 2;
 }
+
 .logo {
   height: 10vh;
   max-height: 120px;
@@ -137,7 +142,8 @@ body {
   height: auto;
   object-fit: contain;
 }
-footer{
+
+footer {
   position: relative;
   background: url('../images/Pattern.png') no-repeat;
   font-size: 0.9rem;
@@ -146,7 +152,7 @@ footer{
   z-index: 2;
 }
 
-footer::after{
+footer::after {
   content: '';
   position: absolute;
   top: 0;
@@ -157,10 +163,44 @@ footer::after{
   z-index: -1;
   opacity: 0.97;
 }
-.nav-link{
+
+.nav-link {
   color: #0D2348;
   text-transform: capitalize;
 }
-.pattern{
+
+.pattern {
   transform: translateX(-6px);
+}
+
+.about-hero {
+  width: 100vw;
+  object-fit: cover;
+  object-position: top;
+}
+.about-hero-firm{
+  position: relative;
+  background-image: url('../images/firm-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-hero-firm-text{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  font-size: 6rem;
+  color: #0D2348;
+  font-family: 'Merriweather';
+}
+.h-vh{
+  height: 86vh;
+}
+.firm-story-img{
+  object-fit: cover;
+}
+.firm-team{
+  background-image: url('../images/firm-team3.png');
+  background-position: center 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
