@@ -159,6 +159,7 @@ footer::after{
 }
 .nav-link{
   color: #0D2348;
+  text-transform: capitalize;
 }
 .pattern{
   transform: translateX(-6px);
