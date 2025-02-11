@@ -19,6 +19,7 @@ body {
   over-flow: hidden;
   color: #0D2348;
   overflow-y: scroll;
+  overflow-x: hidden;
   font-family: 'Merriweather', serif;
 }
 
