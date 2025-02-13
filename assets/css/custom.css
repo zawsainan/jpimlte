@@ -105,7 +105,7 @@ body {
 
 }
 
-.story-header {
+.sub-hero {
   background-image: url('../images/headerbg.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -114,7 +114,7 @@ body {
   position: relative;
 }
 
-.story-header::after {
+.sub-hero::after {
   background: linear-gradient(to right, #0D2348, transparent);
   content: '';
   position: absolute;
@@ -124,10 +124,9 @@ body {
   height: 100%;
   background: linear-gradient();
   z-index: -1;
-
 }
 
-.story-header-text {
+.sub-text {
   width: 32%;
   text-align: left;
   font-family: 'Acumin';
