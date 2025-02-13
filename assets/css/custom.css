@@ -174,9 +174,6 @@ footer::after {
   text-transform: capitalize;
 }
 
-.pattern {
-  transform: translateX(-6px);
-}
 
 .about-hero {
   width: 100vw;
