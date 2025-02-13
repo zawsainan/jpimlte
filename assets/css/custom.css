@@ -192,10 +192,20 @@ footer::after {
 }
 .about-hero-firm-text{
   position: absolute;
+  width: 55%;
   top: 50%;
   left: 15%;
   font-size: 6rem;
   color: #0D2348;
+  font-family: 'Merriweather';
+}
+.about-hero-team-text{
+  position: absolute;
+  width: 46%;
+  top: 60%;
+  left: 15%;
+  font-size: 5rem;
+  color: white;
   font-family: 'Merriweather';
 }
 .h-vh{
