@@ -59,13 +59,14 @@ p {
     font-size: 1rem;
     color: #0D2348;
 }
+
 /* for nav links  */
 
 .nav-link {
     color: #0D2348;
     text-transform: capitalize;
-  }
-  
+}
+
 /* body */
 
 body {
@@ -85,13 +86,14 @@ body {
     color: #0D2348;
     transform: translateY(-50%);
 } */
- .hero-text{
+.hero-text {
     left: 15%;
     color: #0D2348;
     transform: translateY(-50%);
     font-size: 6rem;
     width: 55%;
- }
+}
+
 /* 
 @media(min-width: 576px){
     .hero-text{
@@ -125,12 +127,14 @@ body {
     width: 80%;
     text-align: left;
 }
-@media(min-width: 768px){
+
+@media(min-width: 768px) {
     .sub-hero-text {
         width: 60%;
     }
 }
-@media(min-width: 992px){
+
+@media(min-width: 992px) {
     .sub-hero-text {
         width: 36%;
     }
@@ -140,39 +144,47 @@ body {
 
 .placeholder-img-one::after,
 .placeholder-img-two::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #0D2348;
-  opacity: .7;
-  z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0D2348;
+    opacity: .7;
+    z-index: -1;
 }
 
 .placeholder-img-one {
-  position: relative;
-  background: url('../images/team2.jpg') no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 24px;
-  height: 15rem;
-  z-index: 2;
+    position: relative;
+    background: url('../images/team2.jpg') no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    height: 15rem;
+    z-index: 2;
 }
 
 .placeholder-img-two {
-  position: relative;
-  background: url('../images/team.jpg') no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 24px;
-  height: 15rem;
-  z-index: 2;
+    position: relative;
+    background: url('../images/team.jpg') no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    height: 15rem;
+    z-index: 2;
+}
+
+.meet-team {
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0)),
+        url('../images/firm-team3.png');
+    background-position: center 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -185,9 +197,9 @@ footer {
     background-position: center;
     background-size: cover;
     z-index: 2;
-  }
-  
-  footer::after {
+}
+
+footer::after {
     content: '';
     position: absolute;
     top: 0;
@@ -197,4 +209,4 @@ footer {
     background-color: #0D2348;
     z-index: -1;
     opacity: 0.97;
-  }
+}
