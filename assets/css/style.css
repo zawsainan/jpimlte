@@ -77,6 +77,29 @@ body {
     overflow-x: hidden;
 }
 
+
+/* .hero-text{
+    font-size: 6rem;
+    width: 55%;
+    left: 15%;
+    color: #0D2348;
+    transform: translateY(-50%);
+} */
+ .hero-text{
+    left: 15%;
+    color: #0D2348;
+    transform: translateY(-50%);
+    font-size: 6rem;
+    width: 55%;
+ }
+/* 
+@media(min-width: 576px){
+    .hero-text{
+        font-size: 4rem;
+
+    }
+} */
+
 .sub-hero {
     background-image: url('../images/headerbg.png');
     background-repeat: no-repeat;

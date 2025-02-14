@@ -167,36 +167,12 @@ footer::after {
   color: #0D2348;
   text-transform: capitalize;
 }
-
-
-.about-hero {
-  width: 100vw;
-  object-fit: cover;
-  object-position: top;
-}
-.about-hero-firm{
-  position: relative;
-  background-image: url('../images/firm-hero.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .about-hero-firm-text{
   position: absolute;
   width: 55%;
   top: 50%;
   left: 15%;
-  font-size: 6rem;
   color: #0D2348;
-  font-family: 'Merriweather';
-}
-.about-hero-team-text{
-  position: absolute;
-  width: 46%;
-  top: 60%;
-  left: 15%;
-  font-size: 5rem;
-  color: white;
-  font-family: 'Merriweather';
 }
 .h-vh{
   height: 86vh;
